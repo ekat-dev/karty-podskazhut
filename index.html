@@ -14,7 +14,7 @@
   <body class="page theme_dark">
     <header class="header">
       <h1 class="heading content-section header__title">Карты подскажут</h1>
-      <nav class="header__menu content-section">
+      <nav class="header__menu">
         <div class="header__logo">
           <svg xmlns="http://www.w3.org/2000/svg" width="135" height="25">
             <use href="./images/logo.svg#logo"></use>
@@ -43,11 +43,11 @@
         </p>
       </div>
       <figure class="content__figure">
-        <picture class="content__picture">
+        <picture>
           <source srcset="./images/cards-1x.avif 1x, ./images/cards-2x.avif 2x" type="image/avif">
           <source srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x" type="image/webp">
           <source srcset="./images/cards-1x.png 1x, ./images/cards-2x.png 2x" type="image/png">
-          <img src="./images/cards-1x.png" alt="Колода Oblique Strategies">
+          <img src="./images/cards-1x.png" alt="Колода Oblique Strategies" class="content__picture">
         </picture> 
         <figcaption class="content__picture-caption">
           Колода Oblique Strategies
@@ -85,13 +85,13 @@
         </h3>
         <p class="content__card-subtitle">Воспользуйтесь старой идеей</p>
       </article>
-      <h2 class="heading content__title">Кто пользовался Oblique Strategies</h2>
+      <h2 class="heading content__title list">Кто пользовался Oblique Strategies</h2>
       <div class="content__text-block">
         <ul class="content__list">
-          <li>Дэвид Боуи во время записи Берлинской трилогии;</li>
-          <li>Talking Heads и Дэвид Бирн в сольной карьере;</li>
-          <li>Coldplay;</li>
-          <li>MGMT.</li>
+          <li><div class="content__list-icon"></div><p>Дэвид Боуи во время записи Берлинской трилогии;</p></li>
+          <li><div class="content__list-icon"></div><p>Talking Heads и Дэвид Бирн в сольной карьере;</p></li>
+          <li><div class="content__list-icon"></div><p>Coldplay;</p></li>
+          <li><div class="content__list-icon"></div><p>MGMT</p></li>
         </ul>
       </div>
     </main>
